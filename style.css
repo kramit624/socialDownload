@@ -1,0 +1,111 @@
+/* .navbar{
+    border-bottom: 1px solid #212529;
+}
+
+.album{
+    background-color: #2B3035 !important;
+}
+
+.card{
+    background-color: #212529 !important;
+    color: rgb(163, 163, 163) !important;
+} */
+
+
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  color: #333;
+  text-align: center;
+}
+
+/* Container for Result Section */
+#result {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Heading Styling */
+h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Video Styling */
+video {
+  width: 100%;
+  border-radius: 8px;
+  max-height: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styling */
+#download-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+#download-btn:hover {
+  background-color: #45a049;
+}
+
+/* Error Message Styling */
+#error-message {
+  color: #e74c3c;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+/* Input Section (optional, if you want an input for URLs) */
+#search-url {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#search-btn {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+#search-btn:hover {
+  background-color: #2980b9;
+}
